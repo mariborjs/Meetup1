@@ -1,0 +1,13 @@
+=font-face($family, $path, $weight: normal, $style: normal)
+  @font-face
+    font-family: $family
+    src: url('#{$path}.ttf') format('truetype')
+    font-weight: $weight
+    font-style: $style
+
++font-face('Lato-Light', '../assets/public/fonts/Lato-Light', 300, 'normal')
++font-face('Lato-Regular', '../assets/public/fonts/Lato-Regular', 400, 'normal')
++font-face('Lato-Bold', '../assets/public/fonts/Lato-Bold', 700, 'normal')
++font-face('Lato-Black', '../assets/public/fonts/Lato-Black', 900, 'normal')
+
+$font-family: 'Lato-Bold', sans-serif

@@ -1,0 +1,22 @@
+{
+  "name": "knell",
+  "version": "1.0.0",
+  "description": "ExpressJS with RxJS experiment",
+  "repository": "https://github.com/bleenco/MariborJS.git",
+  "author": "Jan Kuri <jan@bleenco.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "postinstall": "npm run build"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "rxjs": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.35",
+    "@types/node": "^7.0.14",
+    "typescript": "^2.3.2"
+  }
+}
