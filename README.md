@@ -31,6 +31,6 @@ The Reactive Extensions for JavaScript (RxJS) is a set of libraries for composin
 
 **Affiliations:** Institut Jožef Stefan
 
-**Description: **
+**Description:**
 
 Node.js and its ecosystem enable fast and easy development of applications. However, data analytics components typically require external tools such as Apache Storm or Spark. In this presentation Jan Rupnik will present how to use or develop scalable data mining components directly from node.js using QMiner. This will be presented through two use-cases: sentiment classification on Twitter and real-time user profiling. Use-cases cover different data modalities (text, social networks, streams), transformations (feature extraction) and algorithms (classification, recommendation).
